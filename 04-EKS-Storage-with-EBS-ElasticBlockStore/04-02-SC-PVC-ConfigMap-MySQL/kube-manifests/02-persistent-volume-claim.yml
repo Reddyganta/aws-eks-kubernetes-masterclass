@@ -9,3 +9,9 @@ spec:
   resources: 
     requests:
       storage: 4Gi
+      
+      
+      
+# ReadWriteOnce--> volume can be mounted as read-write by single node
+# ReadWriteMany--> volume can be mounted as read-write by many node-----> supports nfs
+# ReadOnlyMany--> volume can be mounted as read-only by many node
